@@ -4,7 +4,6 @@ const fs = require('fs')
 const path = require('path')
 
 middle.get((file, cb) => {
-  console.log(file);
   let ext = path.extname(file);
   if (ext == '.html') {
     let pugfile = file.replace('.html', '.pug')
@@ -28,7 +27,6 @@ function compilePug(pugfile, cb) {
       // TODO: Do the pug thing
       let fn = pug.compile(data.toString(), {})
       let html = fn({})
-      console.log(html);
       cb(html)
     }
   })

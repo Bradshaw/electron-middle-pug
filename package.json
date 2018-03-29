@@ -1,6 +1,6 @@
 {
   "name": "electron-middle-pug",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Compile .pug file to .html as they are requested by your electron app",
   "repository": {
     "type": "git",
@@ -19,5 +19,6 @@
   "dependencies": {
     "electron-middle": "^1.0.1",
     "pug": "^2.0.3"
-  }
+  },
+  "keywords": ["electron", "middleware", "renderer", "compiler", "file", "module", "utility", "pug", "templates", "html"]
 }

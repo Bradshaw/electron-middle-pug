@@ -24,7 +24,6 @@ function compilePug(pugfile, cb) {
     if (err) {
       cb()
     } else {
-      // TODO: Do the pug thing
       let fn = pug.compile(data.toString(), {})
       let html = fn({})
       cb(html)

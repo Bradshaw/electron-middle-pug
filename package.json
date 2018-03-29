@@ -1,0 +1,23 @@
+{
+  "name": "electron-middle-pug",
+  "version": "1.0.0",
+  "description": "Compile .pug file to .html as they are requested by your electron app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bradshaw/electron-middle-pug"
+  },
+  "engines": {
+    "electron": "1.8.x",
+    "node": "8.x.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin \"Gaeel\" Bradshaw-Rodriguez <gaeel@nanoleptic.net> (https://spaceshipsin.space)",
+  "license": "ISC",
+  "dependencies": {
+    "electron-middle": "^1.0.1",
+    "pug": "^2.0.3"
+  }
+}
